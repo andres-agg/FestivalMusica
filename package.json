@@ -1,0 +1,29 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Proyecto con Glup, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres-agg/FestivalMusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Glup"
+  ],
+  "author": "Andres Godoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres-agg/FestivalMusica/issues"
+  },
+  "homepage": "https://github.com/andres-agg/FestivalMusica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.45.1"
+  }
+}
